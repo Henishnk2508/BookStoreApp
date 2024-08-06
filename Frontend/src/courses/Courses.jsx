@@ -6,10 +6,11 @@ function Courses() {
   return (
     <>
       <Navbar />
-      <div className=" min-h-screen">
-        <Course />
-      </div>
-      <Footer />
+      <br />
+        <div className="min-h-screen">
+          <Course />
+        </div>
+        <Footer />
     </>
   );
 }

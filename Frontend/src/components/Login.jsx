@@ -40,7 +40,7 @@ function Login() {
   return (
     <div>
       <dialog id="my_modal_3" className="modal">
-        <div className="modal-box">
+        <div className="modal-box bg-white">
           <form onSubmit={handleSubmit(onSubmit)} method="dialog">
             {/* if there is a button in form, it will close the modal */}
             <Link
@@ -59,7 +59,7 @@ function Login() {
               <input
                 type="email"
                 placeholder="Enter your email"
-                className="w-80 px-3 py-1 border rounded-md outline-none"
+                className="w-80 px-3 py-1 border rounded-md outline-none text-white"
                 {...register("email", { required: true })}
               />
               <br />
@@ -76,7 +76,7 @@ function Login() {
               <input
                 type="password"
                 placeholder="Enter your password"
-                className="w-80 px-3 py-1 border rounded-md outline-none"
+                className="w-80 px-3 py-1 border rounded-md outline-none text-white"
                 {...register("password", { required: true })}
               />
               <br />
@@ -89,7 +89,7 @@ function Login() {
 
             {/* Button */}
             <div className="flex justify-around mt-6">
-              <button className="bg-pink-500 text-white rounded-md px-3 py-1 hover:bg-pink-700 duration-200">
+              <button className="bg-black text-white rounded-md px-3 py-1 hover:bg-zinc-800 duration-200">
                 Login
               </button>
               <p>
